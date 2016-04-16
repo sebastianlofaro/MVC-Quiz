@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz 2</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="backgroundImage"></div>
+    <h1>Kiteboarding Quiz</h1>
+
+
+    <!-- Intro Section -->
+
+    <section class='introBox'>
+        <h2>Introduction</h2>
+        <p>This is a quiz to test your knowledge of Kiteboarding.</p>
+        <input type="submit" value="Continue" id="continueToQuiz">
+    </section>
+
+
+    <!-- Question Section -->
+
+    <section class="questionBox">
+        <p id="question">Which team does Aaron Hadlow ride for?</p>
+        <div id="choices">
+            <!-- EXAMPLE
+            <input type="radio" name="answer" class="option" value="0">North
+            <br>
+            <input type="radio" name="answer" class="option" value="1">Best
+            <br>
+            <input type="radio" name="answer" class="option" value="2">Slingshot
+            <br>
+            <input type="radio" name="answer" class="option" value="3">Cabrinah
+            <br>
+            -->
+        </div>
+        <input type="submit" value="Submit" class="option" id="submitAnswer">
+    </section>
+
+
+    <!-- Results Section -->
+
+    <section class='resultsBox'>
+        <h2>Results</h2>
+        <div class="result"></div>
+        <input type="submit" value="Try Again" id="tryAgain" onclick="location.reload();">
+    </section>
+
+
+</body>
+
+</html>

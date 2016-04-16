@@ -1,0 +1,72 @@
+/* CSS reset 
+	(all the browsers will see the website in the same by setting every tag to 0 (the website will look the same on all browsers))
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+
+/* General styles 
+	(the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
+*/
+body {
+	font-size: 1.5em;
+}
+
+.backgroundImage {
+	background-image: url('../img/kitesurfing.jpg');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	display:block;
+	position: absolute;
+	z-index: -999;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 50px;
+	font-size: 3em;
+}
+
+/* Header styles 
+	(all the styles inside the < header > or < nav > tags) 
+*/
+
+
+/* Content styles 
+	(all the styles inside the < sections > or < aside > tags)
+*/
+
+.questionBox, .introBox, .resultsBox {
+	background-color: rgba(200, 200, 200, 0.7);
+	width: 500px;
+	height: 300px;
+	margin: auto auto;
+	margin-top: 150px;
+	padding: 10px;
+	border-radius: 10px;
+	border:1px solid rgba(0, 0, 0, 0.3);
+
+}
+
+h2 {
+	text-align: center;
+}
+
+
+/* Footer styles 
+	(all the styles inside the < footer > tag)
+*/
+
+
+/* Responsive styles 
+	(the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
+*/
